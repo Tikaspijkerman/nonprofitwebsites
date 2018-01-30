@@ -308,6 +308,12 @@ section:not(.hero):nth-child(even){
     }
 }
 /* Contact Section */
+
+.contact p#smaller {
+    font-size: 12px;
+    font-style: italic;
+}
+
 .contact form {
   display: flex;
   align-items: center;
