@@ -335,10 +335,6 @@ section:not(.hero):nth-child(even){
     cursor: pointer;
   }
 
-.contact p #smaller{
-    font-size: 10px;
-    }
-
 @media (max-width: 1000px){
     .contact form input {
         flex-basis: 100%;
