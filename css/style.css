@@ -93,7 +93,8 @@ header a{
     font-size: 20px;
     padding: 4px 20px 4px 20px;
     margin: -10px;
-    background-color: #ffe6e6;
+    background-color: #575757;
+    opacity: .9;
 }
 
 header a.logo{
