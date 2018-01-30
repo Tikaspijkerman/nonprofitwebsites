@@ -1,4 +1,4 @@
-<html>  
+<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,29 +9,29 @@
     </head>
     <body>
         <header>
-           <a class="logo" href="#"><h3>My domaino</h3><img src="thumb_domino_1024.jpg" height="50px" width="50px"></a>
+           <a class="logo" href="#hero"><h3>My domaino</h3><img src="thumb_domino_1024.jpg" height="50px" width="50px"></a>
             <nav>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#hero">Home</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="#packages">Projects</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </nav>
         </header>
 
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="background-image"></div>
             <div class="content-area">
                 <h1>Webdevelopment for creative start-ups</h1>
                 <h3>To give a chance to start-ups in underdeveloped environments</h3>
-                <a href="#" class="btn">Contact</a>
+                <a href="#contact" class="btn">Contact</a>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <h3 class="title">Goals</h3>
             <p>We build websites for startups in underdevelopment countries. To give people a chance that most deserve it. And ofcourse, we do this at no cost.
                 We also assist those start-ups in building succesfull marketing strategies, to build their business. Because we are all humans. And we all want to grow bigger.
@@ -48,7 +48,7 @@
             </ul>
         </section>
 
-        <section class="packages">
+        <section class="packages" id="packages">
           <h3 class="title">Packages</h3>
           <p>Our aim is to help those people that most need it. To make this possible, we work on several projects. Have a look at our efforts to help those in need.</p>
           <hr>
@@ -76,13 +76,13 @@
             </li>
           </ul>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h3 class="title">Contact</h3>
         <p> Do you want to know more about our projects? Leave your emailadress behind and we will get in touch with you soon.</p>
         <hr>
-        <form>
-          <input type="email" placeholder="email">
-          <a class="btn" onClick="alert('Thankyou')">Send</a>
+        <form action="">
+          <input type="email" placeholder="emailadress">
+         <a class="btn" onclick="alert('Thankyou for submitting')">Send</a>
         </form>
             </section>
 <footer>
@@ -93,6 +93,7 @@
     <li><a href=#><i class="fa fa-facebook-square fa-2x"></i></a></li>
     <li><a href=#><i class="fa fa-twitter-square fa-2x"></i></a></li>
   </ul>
+
 </footer>
     </body>
 </html>
