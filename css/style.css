@@ -132,6 +132,10 @@ a.btn {
     padding: 10px;
 }
 
+a.btn:hover {
+   opacity: 1;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -325,6 +329,11 @@ section:not(.hero):nth-child(even){
   color: #555;
   flex: 1;
 }
+
+.contact form a:hover {
+    background-color: #607d8b;
+    cursor: pointer;
+  }
 
 @media (max-width: 1000px){
     .contact form input {
