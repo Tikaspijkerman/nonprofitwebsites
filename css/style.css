@@ -238,7 +238,7 @@ header h2 {
 .projects .grid li.small {
   background-image: url(https://images.unsplash.com/photo-1459183885421-5cc683b8dbba?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e47cdea3ff94432638d610ffe8423e27&auto=format&fit=crop&w=2100&q=80);
   background-size: cover;
-  height: 600px;
+  height: 300px;
   flex-basis: 40%;
 }
 
@@ -246,21 +246,21 @@ header h2 {
  background-image: url(https://images.unsplash.com/photo-1442544213729-6a15f1611937?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7568373042f37fe232163ebd15a4ccee&auto=format&fit=crop&w=2689&q=80);
  background-size: cover;
  flex-basis: 60%;
- height: 600px;
+ height: 300px;
 }
 
 .projects .grid li.small2 {
   background-image: url(https://images.unsplash.com/photo-1486280380840-0531135d75af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=22f75f6daaf2a741ce5d3e1d66be9aa9&auto=format&fit=crop&w=2102&q=80);
   background-size: cover;
   flex-basis: 60%;
-  height: 600px;
+  height: 500px;
 }
 
 .projects .grid li.large2 {
  background-image: url(https://images.unsplash.com/photo-1499984372926-629283a62cea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7de3c7541c41e819d7d7cba82375bfbc&auto=format&fit=crop&w=2100&q=80);
  background-size: cover;
  flex-basis: 40%;
- height: 600px;
+ height: 500px;
 }
 
 section:not(.hero):nth-child(even){
