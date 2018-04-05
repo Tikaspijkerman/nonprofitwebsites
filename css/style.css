@@ -195,6 +195,7 @@ header h2 {
     background-color: rgb(34, 7, 7);
     opacity: .4;
     padding: 100px;
+    max-width: 100%;
 }
 
 @keyframes slidefade {
