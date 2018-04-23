@@ -67,7 +67,7 @@ section p{
     font-family: sans-serif;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
    body {
         width: 100%;
     } 
@@ -76,6 +76,22 @@ section p{
         padding: 50px 20px;
     }
 }
+
+@media screen and (max-width: 500px) {
+   body {
+        width: 100%;
+    } 
+    
+    section {
+        padding: 20px 10px;
+    }
+    
+    h1 {
+        font-size: 15px;
+}
+    a {
+        font-size: 12px;
+    }
 
 /* header styles */
  
