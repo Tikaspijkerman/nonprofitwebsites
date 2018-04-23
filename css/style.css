@@ -70,12 +70,7 @@ section p{
 @media (max-width: 800px) {
    body {
         width: 100%;
-    } 
-    
-    section {
-        padding: 50px 20px;
     }
-}
 
 /* header styles */
 
@@ -225,6 +220,38 @@ header h2 {
         padding: 15px 40px;
     }
 }
+
+@media screen and (max-width: 500px){
+  body{
+    text-align: center;
+    width: 100%;
+  }
+    .hero {max-height: 500px;
+    }
+
+    .hero h1{
+        font-size: 10px; 
+    }
+
+    .hero h3{
+        font-size: 10px;
+    }
+
+    .hero a.btn {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+   body {
+        width: 100%;
+    } 
+    
+    section {
+        padding: 50px 20px;
+    }
+}
+
 
 /* projects section */
 .projects .grid li{
@@ -405,3 +432,4 @@ footer a {
         margin: 0 8px;
     }
   
+
