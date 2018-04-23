@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ 
 html {
     font: normal 16px sans-serif;
     color: #555;
-}
+} 
 body {
     width: 100%;
 }
-
+ 
 nav {
     list-style: none;
 }
-
+ 
 a {
     text-decoration: none;
     opacity: 0.75;
@@ -25,7 +25,7 @@ a {
     padding: 5px;
     border-radius: 10px;
     padding: 5px 50px 5px 50px;
-}
+}  
 
 a:hover {
     opacity: 1;
@@ -35,7 +35,7 @@ a.img {
   margin: 0;
   padding: 0;
 }
-
+ 
 .grid {
     width: 100%;
     display: flex;
@@ -57,7 +57,7 @@ section h3.title{
     margin-bottom: 30px;
     text-align: center;
 }
-
+ 
 section p{
     max-width: 775px;
     line-height: 2;
@@ -70,8 +70,8 @@ section p{
 @media (max-width: 800px) {
    body {
         width: 100%;
-    }
-
+    } 
+    
     section {
         padding: 50px 20px;
     }
@@ -88,7 +88,7 @@ header {
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.801);
     padding: 35px 100px 35px 100px;
-}
+}  
 
 header h2{
     font-family: monospace;
@@ -214,7 +214,7 @@ header h2 {
     }
 
     .hero h1{
-        font-size: 20px;
+        font-size: 20px; 
     }
 
     .hero h3{
@@ -268,21 +268,21 @@ section:not(.hero):nth-child(even){
 }
 
 @media (max-width: 1100px) {
-    .destinations .grid li.small,
-    .destinations .grid li.small1,
-    .destinations .grid li.large,
+    .destinations .grid li.small, 
+    .destinations .grid li.small1, 
+    .destinations .grid li.large, 
     .destinations .grid li.large1 {
         flex-basis: 50%;
-    }
+    } 
 }
 
 @media (max-width: 800px) {
-    .destinations .grid li.small,
-    .destinations .grid li.small1,
-    .destinations .grid li.large,
+    .destinations .grid li.small, 
+    .destinations .grid li.small1, 
+    .destinations .grid li.large, 
     .destinations .grid li.large1 {
         flex-basis: 100%;
-    }
+    } 
 }
 
 /* Packages section */
@@ -391,7 +391,7 @@ footer a {
     background: none;
 }
 
-@media  screen and (max-width: 1100px){
+@media (max-width: 1100px){
     footer {
         flex-direction: column;
     }
@@ -404,34 +404,4 @@ footer a {
     footer ul li{
         margin: 0 8px;
     }
-
-@media screen and (max-width: 500px){
- body{
-        text-align: center;
-        width: 100%;
-      }
-  .hero {max-height: 500px;
- }
-    
-.hero h1{
-          font-size: 10px; 
-        }
-    
-        .hero h3{
-            font-size: 10px;
-        }
-    
-        .hero a.btn {
-            padding: 10px 10px;
-        }
-  }
-    
-   @media screen and (max-width: 800px) {
-       body {
-            width: 100%;
-        } 
-        
-        section {
-            padding: 50px 20px;
-        }
-  }
+  
