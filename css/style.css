@@ -65,7 +65,7 @@ section p{
     margin-bottom: 30px;
     text-align: center;
     font-family: sans-serif;
-}
+} 
 
 @media (max-width: 800px) {
    body {
