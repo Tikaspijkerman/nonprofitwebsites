@@ -1,4 +1,4 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ section p{
     font-family: sans-serif;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
    body {
         width: 100%;
     } 
@@ -77,24 +77,8 @@ section p{
     }
 }
 
-@media screen and (max-width: 500px) {
-   body {
-        width: 100%;
-    } 
-    
-    section {
-        padding: 20px 10px;
-    }
-    
-    h1 {
-        font-size: 15px;
-}
-    a {
-        font-size: 12px;
-    }
-
 /* header styles */
- 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -176,20 +160,6 @@ header h2 {
     margin-bottom: 15px;
     }
 }
-    
-    @media screen and (max-width: 500px) {
-   header {
-        padding: 10px 20px;
-        flex-direction: column;
-    } 
-    
-    
-   header.h1 {
-        font-size: 15px;
-}
-    header.a {
-        font-size: 12px;
-    }
 
 /*Hero styles */
 .hero {
@@ -434,4 +404,4 @@ footer a {
     footer ul li{
         margin: 0 8px;
     }
-  
+ 
