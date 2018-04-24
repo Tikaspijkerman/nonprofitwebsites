@@ -75,8 +75,11 @@ section p{
     section {
         padding: 50px 20px;
     }
-}
 
+ body > header > nav > li {
+    padding-top: 15px;
+  }   
+}
 /* header styles */
 
 header {
@@ -404,4 +407,65 @@ footer a {
     footer ul li{
         margin: 0 8px;
     }
+    
+    @media (max-width: 500px) {
+
+  #projects > h3 {
+  padding-top: 10px;
+  }
+
+  body > header > nav > li {
+    padding-top: 15px;
+  }
+  #hero > div.content-area {
+    padding: 50px;
+  }
+
+  #hero > div.content-area > h1 {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  #hero > div.content-area > h3 {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  body > header {
+   text-align: center;
+   padding: 20px;
+  }
+
+  #hero > div.content-area > a {
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+    margin: 5px;
+  }
+
+  #packages > p {
+    font-size: 13px;
+  }
+
+  #projects {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #projects > ul > li.large {
+    height: 200px;
+  }
+
+    #projects > ul > li.small {
+    height: 200px;
+  }
+
+    #projects > ul > li.large2 {
+    height: 200px;
+  }
+
+    #projects > ul > li.small2 {
+    height: 200px;
+  }
+}
  
